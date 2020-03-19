@@ -1,4 +1,4 @@
 import os
 import config
 
-print("huh", os.getenv("SECRET"))
+print("environment is loaded upon import (not recommended)", os.getenv("SECRET"))
